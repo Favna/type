@@ -1,0 +1,790 @@
+{
+	"id": 0,
+	"name": "@klasa/type",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "\"index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/type/type/src/index.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "Type",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "The class for deep checking Types"
+					},
+					"children": [
+						{
+							"id": 8,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {},
+							"signatures": [
+								{
+									"id": 9,
+									"name": "new Type",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {},
+									"parameters": [
+										{
+											"id": 10,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "The value to generate a deep Type of"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										},
+										{
+											"id": 11,
+											"name": "parent",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "The parent value used in recursion\n"
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"id": 2,
+														"name": "Type"
+													},
+													{
+														"type": "intrinsic",
+														"name": "null"
+													}
+												]
+											},
+											"defaultValue": "null"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 2,
+										"name": "Type"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 33,
+									"character": 40
+								}
+							]
+						},
+						{
+							"id": 6,
+							"name": "childKeys",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The child keys of this Type"
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 28,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"id": 2,
+										"name": "Type"
+									}
+								],
+								"name": "Map"
+							}
+						},
+						{
+							"id": 7,
+							"name": "childValues",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The child values of this Type"
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 33,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"id": 2,
+										"name": "Type"
+									}
+								],
+								"name": "Map"
+							}
+						},
+						{
+							"id": 4,
+							"name": "is",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The shallow type of this"
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 18,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 5,
+							"name": "parent",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The parent of this Type"
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 23,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"id": 2,
+										"name": "Type"
+									},
+									{
+										"type": "intrinsic",
+										"name": "null"
+									}
+								]
+							}
+						},
+						{
+							"id": 3,
+							"name": "value",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The value to generate a deep Type of"
+							},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 13,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "unknown"
+							}
+						},
+						{
+							"id": 12,
+							"name": "childTypes",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The type string for the children of this Type"
+							},
+							"getSignature": [
+								{
+									"id": 13,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The type string for the children of this Type"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 50,
+									"character": 23
+								}
+							]
+						},
+						{
+							"id": 23,
+							"name": "addEntry",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 24,
+									"name": "addEntry",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The subtype to create based on this.value's entries."
+									},
+									"parameters": [
+										{
+											"id": 25,
+											"name": "__namedParameters",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"originalName": "__0",
+											"type": {
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "unknown"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 94,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 20,
+							"name": "addValue",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 21,
+									"name": "addValue",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The subtype to create based on this.value's sub value."
+									},
+									"parameters": [
+										{
+											"id": 22,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The sub value\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 85,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 26,
+							"name": "check",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 27,
+									"name": "check",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Get the deep type name that defines the input."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 103,
+									"character": 14
+								}
+							]
+						},
+						{
+							"id": 18,
+							"name": "isCircular",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 19,
+									"name": "isCircular",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Checks if the value of this Type is a circular reference to any parent."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 76,
+									"character": 19
+								}
+							]
+						},
+						{
+							"id": 16,
+							"name": "parents",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 17,
+									"name": "parents",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Walks the linked list backwards, for checking circulars."
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 2,
+												"name": "Type"
+											},
+											{
+												"type": "intrinsic",
+												"name": "void"
+											},
+											{
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										],
+										"name": "Generator"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 66,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 14,
+							"name": "toString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 15,
+									"name": "toString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The full type string generated."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 58,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 31,
+							"name": "list",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 32,
+									"name": "list",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Joins the list of child types."
+									},
+									"parameters": [
+										{
+											"id": 33,
+											"name": "values",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The values to list\n"
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "reference",
+														"id": 2,
+														"name": "Type"
+													}
+												],
+												"name": "Map"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 137,
+									"character": 20
+								}
+							]
+						},
+						{
+							"id": 28,
+							"name": "resolve",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 29,
+									"name": "resolve",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Resolves the type name that defines the input."
+									},
+									"parameters": [
+										{
+											"id": 30,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The value to get the type name of\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 123,
+									"character": 22
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								8
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								6,
+								7,
+								4,
+								5,
+								3
+							]
+						},
+						{
+							"title": "Accessors",
+							"kind": 262144,
+							"children": [
+								12
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								23,
+								20,
+								26,
+								18,
+								16,
+								14,
+								31,
+								28
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 8,
+							"character": 17
+						}
+					]
+				},
+				{
+					"id": 34,
+					"name": "getPromiseDetails",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 3,
+							"character": 25
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						2
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						34
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"kind": 1,
+			"children": [
+				1
+			]
+		}
+	]
+}
