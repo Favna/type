@@ -625,7 +625,7 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 137,
+									"line": 141,
 									"character": 20
 								}
 							]
@@ -679,7 +679,7 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 123,
+									"line": 127,
 									"character": 22
 								}
 							]
@@ -751,6 +751,24 @@
 						"type": "intrinsic",
 						"name": "any"
 					}
+				},
+				{
+					"id": 35,
+					"name": "getProxyDetails",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 3,
+							"character": 42
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
 				}
 			],
 			"groups": [
@@ -765,7 +783,8 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						34
+						34,
+						35
 					]
 				}
 			],
