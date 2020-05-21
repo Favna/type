@@ -7,7 +7,7 @@
 	"children": [
 		{
 			"id": 1,
-			"name": "\"index\"",
+			"name": "\"src/index\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -101,7 +101,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 33,
 									"character": 40
 								}
@@ -121,7 +121,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 28,
 									"character": 18
 								}
@@ -156,7 +156,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 33,
 									"character": 20
 								}
@@ -191,7 +191,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 18,
 									"character": 10
 								}
@@ -215,7 +215,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 23,
 									"character": 15
 								}
@@ -249,7 +249,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 13,
 									"character": 13
 								}
@@ -291,7 +291,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 50,
 									"character": 23
 								}
@@ -351,7 +351,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 94,
 									"character": 17
 								}
@@ -404,7 +404,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 85,
 									"character": 17
 								}
@@ -439,7 +439,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 103,
 									"character": 14
 								}
@@ -474,7 +474,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 76,
 									"character": 19
 								}
@@ -524,7 +524,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 66,
 									"character": 17
 								}
@@ -559,7 +559,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 58,
 									"character": 16
 								}
@@ -624,7 +624,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 141,
 									"character": 20
 								}
@@ -678,7 +678,7 @@
 							],
 							"sources": [
 								{
-									"fileName": "index.ts",
+									"fileName": "src/index.ts",
 									"line": 127,
 									"character": 22
 								}
@@ -728,7 +728,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "index.ts",
+							"fileName": "src/index.ts",
 							"line": 8,
 							"character": 17
 						}
@@ -742,7 +742,7 @@
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "index.ts",
+							"fileName": "src/index.ts",
 							"line": 3,
 							"character": 25
 						}
@@ -760,7 +760,7 @@
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "index.ts",
+							"fileName": "src/index.ts",
 							"line": 3,
 							"character": 42
 						}
@@ -790,7 +790,143 @@
 			],
 			"sources": [
 				{
-					"fileName": "index.ts",
+					"fileName": "src/index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 36,
+			"name": "\"test/arrays\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/type/type/test/arrays.ts",
+			"sources": [
+				{
+					"fileName": "test/arrays.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 37,
+			"name": "\"test/functions\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/type/type/test/functions.ts",
+			"sources": [
+				{
+					"fileName": "test/functions.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 38,
+			"name": "\"test/maps\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/type/type/test/maps.ts",
+			"sources": [
+				{
+					"fileName": "test/maps.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 39,
+			"name": "\"test/objects\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/type/type/test/objects.ts",
+			"sources": [
+				{
+					"fileName": "test/objects.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 40,
+			"name": "\"test/primitives\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/type/type/test/primitives.ts",
+			"sources": [
+				{
+					"fileName": "test/primitives.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 41,
+			"name": "\"test/promises\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/type/type/test/promises.ts",
+			"sources": [
+				{
+					"fileName": "test/promises.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 42,
+			"name": "\"test/proxies\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/type/type/test/proxies.ts",
+			"sources": [
+				{
+					"fileName": "test/proxies.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 43,
+			"name": "\"test/sets\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/type/type/test/sets.ts",
+			"sources": [
+				{
+					"fileName": "test/sets.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -802,7 +938,15 @@
 			"title": "Modules",
 			"kind": 1,
 			"children": [
-				1
+				1,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43
 			]
 		}
 	]
